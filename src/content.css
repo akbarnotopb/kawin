@@ -65,17 +65,17 @@
 }
 
 
-.hightlight-container{
+.highlight-container{
     margin-top: 25px;
     padding:0 100px;
     width: 50%;
 }
 
-.hightlight-container > ul{
+.highlight-container > ul{
     list-style: none;
 }
 
-.hightlight-container > ul li{
+.highlight-container > ul li{
     padding:15px 0px;
     margin-bottom:5px;
 }
@@ -91,7 +91,7 @@
     font-weight: 700;
 }
 
-.hightlight-container > ul li div a{
+.highlight-container > ul li div a{
     color:black;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -147,7 +147,7 @@
         height: 100%
     }
 
-    .hightlight-container{
+    .highlight-container{
         padding:0 20px;
         width: 100%;
         box-sizing: border-box;
@@ -173,7 +173,7 @@
         height: 100%
     }
     
-    .hightlight-container{
+    .highlight-container{
         padding:0 20px;
         width: 100%;
         box-sizing: border-box;
