@@ -1,0 +1,168 @@
+#pagethree > div{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#left-three-intro {
+    /* position: relative; */
+    padding:0 100px;
+    width: calc(50% - 100px);
+}
+
+#left-three-intro .title{
+    font-size:1.5rem;
+}
+
+
+#left-three-intro::after{
+    content: "";
+    background: black;
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-left: -40px;
+    /* position: relative; */
+}
+
+
+#hightlight-container{
+    margin-top: 25px;
+    padding:0 100px;
+    width: 50%;
+}
+
+#hightlight-container > ul{
+    list-style: none;
+}
+
+#hightlight-container > ul li{
+    padding:15px 0px;
+    margin-bottom:5px;
+}
+
+.hightlight-keywords{
+    text-decoration: underline;
+}
+
+.hightlight-key{
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+#hightlight-container > ul li div a{
+    color:black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+#left-three-intro title{
+    font-size:1.5rem;
+}
+
+
+.animate-updown {
+    animation: updown 1.5s ease infinite;
+}
+
+.btn{
+    border:none;
+    background:none;
+}
+
+.btn.btn-primary{
+    color:white;
+    background-color: #013880;
+}
+
+@keyframes updown {
+    0% {
+      transform: translateY(-50%);
+    }
+  
+    50% {
+      transform: translateY(25%);
+    }
+  
+    100% {
+      transform: translateY(-50%);
+    }
+}
+  
+@media (max-height: 600px) and (orientation: landscape) {
+        
+    #hightlight-container{
+        padding:0 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+    #left-three-intro {
+        /* position: relative; */
+        box-sizing: border-box;
+        padding:0 20px;
+        width: 100%;
+    }
+
+    #left-three-intro .title{
+        font-size:unset;
+    }
+
+    #pagethree > div{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+  
+@media only screen and (max-width: 600px) {
+        
+    #hightlight-container{
+        padding:0 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+    #left-three-intro {
+        /* position: relative; */
+        box-sizing: border-box;
+        padding:0 20px;
+        width: 100%;
+    }
+
+    #left-three-intro .title{
+        font-size:unset;
+    }
+
+    #pagethree > div{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
