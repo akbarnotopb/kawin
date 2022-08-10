@@ -39,16 +39,60 @@ body{
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
+    body{
+        padding:7px;
+        background-color: white;
+    }
+
     #main-container{
         padding:0;
-        box-sizing:initial;
+        height: calc(100vh - 14px);
+        box-sizing:border-box;
+        border: 2px solid black;
+    }
+
+    .image-decor{
+        max-width: 15%;
+        position: fixed;
+    }
+
+    #image-right-bottom{
+        bottom: 0;
+        right: 11;
+    }
+    
+    #image-left-top{
+        top: 0;
+        left: 11;
     }
   }
 
 @media only screen and (max-width: 600px) {
+    body{
+        padding:7px;
+        background-color: white;
+    }
+
     #main-container{
         padding:0;
-        box-sizing:initial;
+        height: calc(100vh - 14px);
+        box-sizing:border-box;
+        border: 2px solid black;
+    }
+
+    .image-decor{
+        max-width: 15%;
+        position: fixed;
+    }
+
+    #image-right-bottom{
+        bottom: 0;
+        right: 11;
+    }
+    
+    #image-left-top{
+        top: 0;
+        left: 11;
     }
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
