@@ -3,3 +3,36 @@
 @import "./src/footer.css";
 @import "./src/main.css";
 @import "./src/content.css";
+
+#audio-player{
+    padding:5px; 
+    position:fixed; 
+    bottom:50px; 
+    left:50px; 
+    background-color: black; 
+    color: white;
+    font-weight: normal;
+    font-size: small;
+    cursor: pointer;
+}
+
+#audio-player p{
+    margin:0;
+    padding:0;
+}
+
+
+@media (max-height: 600px) and (orientation: landscape) {
+    #audio-player{
+        bottom:15px; 
+        left:15px; 
+    }
+}
+
+  
+@media only screen and (max-width: 600px) {
+    #audio-player{
+        bottom:15px; 
+        left:15px; 
+    }
+}
