@@ -27,15 +27,15 @@ body{
 #image-right-bottom{
     -ms-transform: rotate(-40deg); /* IE 9 */
     transform: rotate(-40deg);
-    bottom: 0;
-    right: 30;
+    bottom: 20;
+    right: 45;
 }
 
 #image-left-top{
     -ms-transform: rotate(-220deg); /* IE 9 */
     transform: rotate(-220deg);
-    top: 0;
-    left: 30;
+    top: 20;
+    left: 45;
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
