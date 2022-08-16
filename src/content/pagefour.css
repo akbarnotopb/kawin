@@ -68,6 +68,14 @@
     font-size:1.5rem;
 }
 
+#pagefour .highlight-container{
+    margin-top: 0;
+}
+
+#byebye-photo{
+    width: 50%;
+    padding: 10px;
+}
   
 @media (max-height: 600px) and (orientation: landscape) {
     #left-four-intro::before{
@@ -99,6 +107,11 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
+    }
+
+    #byebye-photo{
+        width: unset;
+        padding: 10px;
     }
 }
 
@@ -133,6 +146,11 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
+    }
+
+    #byebye-photo{
+        width: unset;
+        padding: 10px;
     }
 }
 
